@@ -89,8 +89,8 @@ IQR_2 = Q3_2-Q1_2
 MIN2 = Q1_2 - 1.5*IQR_2
 MAX2 = Q3_2 + 1.5*IQR_2
 
-# print(MAX)
-# print(MIN)
+# print(MAX2)
+# print(MIN2)
 dataset['bmi'] = np.where(dataset['bmi'] < MIN2, n , dataset['bmi'])
 dataset['bmi'] = np.where(dataset['bmi'] > MAX2, m , dataset['bmi'])
 
