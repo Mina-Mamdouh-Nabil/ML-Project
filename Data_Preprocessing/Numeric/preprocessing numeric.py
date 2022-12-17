@@ -115,10 +115,10 @@ dataset = dataset_mm
 print(dataset.head())
 
 
-fig, (ax1) = plt.subplots(ncols=1, figsize=(10,8))
-ax1.set_title('Original Distributation')
+#fig, (ax1) = plt.subplots(ncols=1, figsize=(10,8))
+#ax1.set_title('Original Distributation')
 
-sns.kdeplot(dataset['age'],ax=ax1)
+#sns.kdeplot(dataset['age'],ax=ax1)
 
 
 
